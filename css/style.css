@@ -294,3 +294,94 @@ footer {
     font-size: 12px;
   }
 }
+/* =========================
+   Fake ERP Error Pages
+   ========================= */
+
+.erp-error-window {
+  background: #d4d0c8;
+  color: #000;
+  border: 2px solid #000;
+  max-width: 760px;
+  margin: 60px auto;
+  box-shadow: 6px 6px 0 #111;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.erp-error-titlebar {
+  background: #003399;
+  color: #fff;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+.erp-error-menu {
+  background: #c0c0c0;
+  padding: 5px 10px;
+  border-bottom: 1px solid #777;
+  font-size: 12px;
+}
+
+.erp-error-menu span {
+  margin-right: 18px;
+}
+
+.erp-error-content {
+  padding: 18px;
+  background: #e8e8e8;
+}
+
+.erp-error-box {
+  background: #fff;
+  border: 2px inset #999;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.erp-error-code {
+  font-family: "Courier New", monospace;
+  background: #000;
+  color: #00ff66;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 13px;
+  border: 1px solid #333;
+}
+
+.erp-error-buttons {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.erp-button {
+  display: inline-block;
+  background: #d4d0c8;
+  color: #000;
+  border: 2px outset #fff;
+  padding: 6px 18px;
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.erp-button:hover {
+  background: #c8c8c8;
+  color: #000;
+  border: 2px inset #fff;
+  text-decoration: none;
+}
+
+.erp-small-print {
+  font-size: 11px;
+  color: #333;
+  margin-top: 12px;
+}
+
+.erp-status-bar {
+  background: #c0c0c0;
+  border-top: 1px solid #777;
+  padding: 5px 10px;
+  font-size: 11px;
+}
